@@ -130,7 +130,7 @@
         <p style="text-align:center; color:#8b949e; margin-bottom: 20px;">[System Hotkeys: Empty Backspace to Finish | Enter to Log]</p>
         
         <div id="setup">
-            <p class="prompt">[SETUP] Initialize Daily Target Budget:</p>
+            <p class="prompt">[SETUP] Initialize Daily Target:</p>
             <input type="number" id="goalInput" placeholder="Set calorie target (e.g. 2000)" onkeydown="handleSetup(event)">
             <button class="btn-submit" onclick="setGoal()">BOOT SYSTEM</button>
         </div>
@@ -139,11 +139,11 @@
             
             <div class="dashboard">
                 <div class="metric">
-                    <div>Budget</div>
+                    <div>Target</div>
                     <div id="dashGoal" class="metric-val">0</div>
                 </div>
                 <div class="metric">
-                    <div>Net Intake</div>
+                    <div>Calories</div>
                     <div id="dashTotal" class="metric-val">0</div>
                 </div>
                 <div class="metric">
